@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Sesion1-EEDD" Database="Sesion1-EEDD-roberto.tags" Version="10000">
-  <Project Name="Ejemplo01" Path="Ejemplo01/Ejemplo01.project" Active="No"/>
-  <Project Name="Ejemplo02" Path="Ejemplo02/Ejemplo02.project" Active="No"/>
-  <Project Name="Ejemplo03" Path="Ejemplo03/Ejemplo03.project" Active="No"/>
-  <Project Name="Ejemplo04" Path="Ejemplo04/Ejemplo04.project" Active="No"/>
-  <Project Name="Ejemplo05" Path="Ejemplo05/Ejemplo05.project" Active="No"/>
-  <Project Name="Ejemplo06" Path="Ejemplo06/Ejemplo06.project" Active="No"/>
-  <Project Name="Ejemplo07" Path="Ejemplo07/Ejemplo07.project" Active="No"/>
-  <Project Name="Ejemplo08" Path="Ejemplo08/Ejemplo08.project" Active="Yes"/>
+  <VirtualDirectory Name="Sesion-1">
+    <Project Name="Ejemplo08" Path="Ejemplo08/Ejemplo08.project" Active="No"/>
+    <Project Name="Ejemplo01" Path="Ejemplo01/Ejemplo01.project" Active="No"/>
+    <Project Name="Ejemplo02" Path="Ejemplo02/Ejemplo02.project" Active="No"/>
+    <Project Name="Ejemplo03" Path="Ejemplo03/Ejemplo03.project" Active="No"/>
+    <Project Name="Ejemplo04" Path="Ejemplo04/Ejemplo04.project" Active="No"/>
+    <Project Name="Ejemplo05" Path="Ejemplo05/Ejemplo05.project" Active="No"/>
+    <Project Name="Ejemplo06" Path="Ejemplo06/Ejemplo06.project" Active="No"/>
+    <Project Name="Ejemplo07" Path="Ejemplo07/Ejemplo07.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Sesion-2">
+    <Project Name="Ejemplo-Paso_Por_Referencia" Path="Ejemplo-Paso_Por_Referencia/Ejemplo-Paso_Por_Referencia.project" Active="No"/>
+    <Project Name="Ejemplo-Paso_De_Argumentos" Path="Ejemplo-Paso_De_Argumentos/Ejemplo-Paso_De_Argumentos.project" Active="No"/>
+    <Project Name="Ejemplo-09" Path="Ejemplo-09/Ejemplo-09.project" Active="No"/>
+    <Project Name="Ejemplo-10" Path="Ejemplo-10/Ejemplo-10.project" Active="No"/>
+    <Project Name="Ejemplo-11" Path="Ejemplo-11/Ejemplo-11.project" Active="No"/>
+    <Project Name="Ejemplo-12" Path="Ejemplo-12/Ejemplo-12.project" Active="Yes"/>
+  </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +29,12 @@
       <Project Name="Ejemplo06" ConfigName="Debug"/>
       <Project Name="Ejemplo07" ConfigName="Debug"/>
       <Project Name="Ejemplo08" ConfigName="Debug"/>
+      <Project Name="Ejemplo-Paso_Por_Referencia" ConfigName="Debug"/>
+      <Project Name="Ejemplo-Paso_De_Argumentos" ConfigName="Debug"/>
+      <Project Name="Ejemplo-09" ConfigName="Debug"/>
+      <Project Name="Ejemplo-10" ConfigName="Debug"/>
+      <Project Name="Ejemplo-11" ConfigName="Debug"/>
+      <Project Name="Ejemplo-12" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +46,12 @@
       <Project Name="Ejemplo06" ConfigName="Release"/>
       <Project Name="Ejemplo07" ConfigName="Release"/>
       <Project Name="Ejemplo08" ConfigName="Release"/>
+      <Project Name="Ejemplo-Paso_Por_Referencia" ConfigName="Release"/>
+      <Project Name="Ejemplo-Paso_De_Argumentos" ConfigName="Release"/>
+      <Project Name="Ejemplo-09" ConfigName="Release"/>
+      <Project Name="Ejemplo-10" ConfigName="Release"/>
+      <Project Name="Ejemplo-11" ConfigName="Release"/>
+      <Project Name="Ejemplo-12" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
