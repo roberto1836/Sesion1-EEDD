@@ -16,7 +16,12 @@
     <Project Name="Ejemplo-09" Path="Ejemplo-09/Ejemplo-09.project" Active="No"/>
     <Project Name="Ejemplo-10" Path="Ejemplo-10/Ejemplo-10.project" Active="No"/>
     <Project Name="Ejemplo-11" Path="Ejemplo-11/Ejemplo-11.project" Active="No"/>
-    <Project Name="Ejemplo-12" Path="Ejemplo-12/Ejemplo-12.project" Active="Yes"/>
+    <Project Name="Ejemplo-12" Path="Ejemplo-12/Ejemplo-12.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Sesion-3">
+    <Project Name="Ejemplo-13" Path="Ejemplo-13/Ejemplo-13.project" Active="No"/>
+    <Project Name="Cola" Path="Cola/Cola.project" Active="No"/>
+    <Project Name="Pila" Path="Pila/Pila.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -35,6 +40,9 @@
       <Project Name="Ejemplo-10" ConfigName="Debug"/>
       <Project Name="Ejemplo-11" ConfigName="Debug"/>
       <Project Name="Ejemplo-12" ConfigName="Debug"/>
+      <Project Name="Ejemplo-13" ConfigName="Debug"/>
+      <Project Name="Cola" ConfigName="Debug"/>
+      <Project Name="Pila" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -52,6 +60,9 @@
       <Project Name="Ejemplo-10" ConfigName="Release"/>
       <Project Name="Ejemplo-11" ConfigName="Release"/>
       <Project Name="Ejemplo-12" ConfigName="Release"/>
+      <Project Name="Ejemplo-13" ConfigName="Release"/>
+      <Project Name="Cola" ConfigName="Release"/>
+      <Project Name="Pila" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
